@@ -7,12 +7,20 @@ public class CuentaBancaria {
 
 	public CuentaBancaria(int nroCuenta,double saldo) {
 		this.nroCuenta=nroCuenta;
-		this.saldo=saldo;
+		this.setSaldo(saldo);
 		
 	}
 	
-	public void transferirMontoHacia() {
-		
+	public boolean transferirMontoHacia(double monto, CuentaBancaria dest) {
+		return true;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
 	}
 	
 	
