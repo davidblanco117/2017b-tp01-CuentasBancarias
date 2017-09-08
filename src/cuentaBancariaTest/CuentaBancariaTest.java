@@ -24,6 +24,9 @@ public class CuentaBancariaTest {
 		
 		resultTransaccion=cuenta1.transferirMontoHacia(10, cuenta2);
 		Assert.assertEquals(false,resultTransaccion );
+		
+		resultTransaccion=cuenta1.transferirMontoHacia(-5, cuenta2);
+		Assert.assertEquals(false,resultTransaccion );
 	}
 
 }
