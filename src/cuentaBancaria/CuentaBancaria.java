@@ -13,8 +13,11 @@ public class CuentaBancaria {
 	
 	public boolean transferirMontoHacia(double monto, CuentaBancaria dest) {
 	
-			dest.saldo+=monto;
-			this.saldo-=monto;
+		if(monto>this.saldo)
+			return false;
+		
+		dest.saldo+=monto;
+		this.saldo-=monto;
 
 		return true;
 	}
