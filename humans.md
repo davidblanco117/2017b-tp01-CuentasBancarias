@@ -7,5 +7,5 @@
 
 ## Estudiantes
 
-* XXX ([xxx](https://github.com/xxx))
-* XXX ([xxx](https://github.com/xxx))
+* Franco David Blanco ([davidblanco117](https://github.com/davidblanco117))
+* Lucas Martel ([Lucas Martel](https://github.com/lucasmartel56))
