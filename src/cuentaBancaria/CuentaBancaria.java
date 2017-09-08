@@ -12,6 +12,7 @@ public class CuentaBancaria {
 	}
 	
 	public boolean transferirMontoHacia(double monto, CuentaBancaria dest) {
+		dest.saldo++;
 		return true;
 	}
 
