@@ -16,6 +16,8 @@ public class CuentaBancariaTest {
 	public void testTransferirMontoHacia() {
 		cuenta1.transferirMontoHacia(1,cuenta2);
 		Assert.assertEquals(6, cuenta2.getSaldo(),0);
+		Assert.assertEquals(9, cuenta1.getSaldo(),0);
+		
 	}
 
 }
